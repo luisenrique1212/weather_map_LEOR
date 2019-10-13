@@ -1,0 +1,8 @@
+<div class="row" style="height: 600px; width: 1350px;">
+        <div class="col-md-9">
+            <app-map #map></app-map>
+        </div>       
+        <div class="col-md-3">
+            <app-weather [lat]="map.lat" [lng]="map.lng"></app-weather>
+        </div>
+</div>
